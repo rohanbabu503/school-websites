@@ -1,0 +1,147 @@
+
+}
+.logo{
+    width: 50%;
+    height: auto;
+}
+.sl{
+    width: 100%;
+    height: 50%;
+}
+
+.d-block{
+    width: 400px;
+    height: 550px;
+    border: 5px solid #dee2e6!important;
+}
+.css{
+  border: 5px solid #dee2e6!important;
+}
+header{
+  background: rosybrown;
+}
+.logo{
+  width: 100px;
+  height: auto;
+}
+.anir{
+  text-transform: uppercase;
+  color: skyblue;
+  font-size: 55px;
+  padding-right: 70px;
+}
+.sez{
+    font-size: 60px;
+    color: hsl(293, 92%, 49%);
+    padding-bottom: 50px;
+
+}
+.bor{
+    border:2px solid blue;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.card{
+  width: 100%;
+  height: 250px;
+  margin-top: 15px;
+
+}
+.card:hover{
+  top: 5px;
+}
+.imge{
+width: 30px;
+height: 150px;
+}
+.pga{
+  font-size: 20px;
+  color: rgb(63, 60, 60);
+}
+.rohan{
+  width: 100%;
+  height: 100%;
+}
+.rn{
+  color: black;
+}
+.rn:hover{
+  color: blue;
+}
+a{
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.knu{
+  width: 100%;
+  height: 300px;
+}
